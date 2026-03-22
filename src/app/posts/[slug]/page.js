@@ -7,6 +7,8 @@ function getTagClass(tag) {
     food: 'tag-food', philosophy: 'tag-philosophy', culture: 'tag-culture',
     personal: 'tag-personal', welcome: 'tag-welcome', family: 'tag-family',
     life: 'tag-life', travel: 'tag-travel', spirituality: 'tag-spirituality',
+    history: 'tag-history', technology: 'tag-technology', ai: 'tag-ai',
+    society: 'tag-society', india: 'tag-india',
   };
   return map[t] || 'tag-default';
 }
