@@ -28,11 +28,14 @@ export default function RootLayout({ children }) {
       <body>
         <header className="site-header">
           <div className="site-header-inner">
-            <div className="site-logo">🪷</div>
+            <div className="site-logo">
+              <img src="/lotus.svg" alt="Lotus" />
+            </div>
             <h1 className="site-title">
               <a href="/">Rita&apos;s Blog</a>
             </h1>
             <p className="site-tagline">Thoughts, stories &amp; a cup of chai ☕</p>
+            <img src="/rita-avatar.svg" alt="Rita" className="site-avatar" />
           </div>
         </header>
 

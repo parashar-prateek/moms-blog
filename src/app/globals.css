@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&family=DM+Sans:wght@400;500;600;700&family=Caveat:wght@400;500;600&display=swap');
 
 :root {
+  --forest: #2D5016;
+  --sage: #5A7D3A;
+  --leaf: #7CB342;
   --saffron: #E8732A;
-  --magenta: #C2185B;
+  --terracotta: #C2652A;
+  --marigold: #E8A317;
   --teal: #00897B;
-  --gold: #F9A825;
+  --rose: #C2185B;
   --plum: #6A1B9A;
   --coral: #FF6F61;
   --sky: #039BE5;
-  --warm-bg: #FFF8F0;
-  --deep-purple: #311B92;
+  --warm-bg: #FDFAF5;
+  --cream: #F5F0E8;
 }
 
 * {
@@ -26,13 +30,13 @@ body {
 }
 
 ::selection {
-  background: rgba(194, 24, 91, 0.2);
+  background: rgba(45, 80, 22, 0.2);
 }
 
 /* ─── Header ─── */
 .site-header {
-  background: linear-gradient(135deg, var(--deep-purple) 0%, var(--magenta) 50%, var(--saffron) 100%);
-  padding: 40px 24px 36px;
+  background: linear-gradient(160deg, #1B3A0A 0%, #2D5016 30%, #3D6B1E 60%, #4A7A25 100%);
+  padding: 36px 24px 32px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -42,8 +46,16 @@ body {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
-              radial-gradient(circle at 80% 20%, rgba(255,255,255,0.08) 0%, transparent 50%);
+  background: radial-gradient(ellipse at 30% 90%, rgba(232,163,23,0.12) 0%, transparent 50%),
+              radial-gradient(ellipse at 70% 10%, rgba(255,255,255,0.06) 0%, transparent 50%);
+}
+
+.site-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--saffron), var(--marigold), var(--leaf), var(--sage), var(--saffron));
 }
 
 .site-header-inner {
@@ -52,8 +64,23 @@ body {
 }
 
 .site-logo {
-  font-size: 38px;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.site-logo img {
+  height: 64px;
+  width: auto;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.15));
+}
+
+.site-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid rgba(255,255,255,0.3);
+  margin: 8px auto 0;
+  display: block;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.2));
 }
 
 .site-title {
@@ -100,7 +127,7 @@ body {
   color: inherit;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
-  border-left: 4px solid var(--saffron);
+  border-left: 4px solid var(--sage);
   position: relative;
   overflow: hidden;
   display: block;
@@ -111,11 +138,11 @@ body {
   transform: translateY(-4px);
 }
 
-.post-card:nth-child(2) { border-left-color: var(--magenta); }
+.post-card:nth-child(2) { border-left-color: var(--saffron); }
 .post-card:nth-child(3) { border-left-color: var(--teal); }
-.post-card:nth-child(4) { border-left-color: var(--plum); }
-.post-card:nth-child(5) { border-left-color: var(--coral); }
-.post-card:nth-child(6) { border-left-color: var(--sky); }
+.post-card:nth-child(4) { border-left-color: var(--terracotta); }
+.post-card:nth-child(5) { border-left-color: var(--marigold); }
+.post-card:nth-child(6) { border-left-color: var(--rose); }
 
 .post-card-emoji {
   position: absolute;
@@ -170,7 +197,7 @@ body {
 .tag-food { background: rgba(232,115,42,0.1); color: var(--saffron); }
 .tag-philosophy { background: rgba(106,27,154,0.1); color: var(--plum); }
 .tag-culture { background: rgba(0,137,123,0.1); color: var(--teal); }
-.tag-personal { background: rgba(194,24,91,0.1); color: var(--magenta); }
+.tag-personal { background: rgba(194,24,91,0.1); color: var(--rose); }
 .tag-welcome { background: rgba(249,168,37,0.1); color: #D48C00; }
 .tag-family { background: rgba(255,111,97,0.1); color: var(--coral); }
 .tag-life { background: rgba(3,155,229,0.1); color: var(--sky); }
@@ -231,10 +258,10 @@ body {
 }
 
 .post-content blockquote {
-  border-left: 3px solid var(--magenta);
+  border-left: 3px solid var(--forest);
   padding: 12px 20px;
   margin: 1.4em 0;
-  background: rgba(194,24,91,0.04);
+  background: rgba(45,80,22,0.04);
   border-radius: 0 12px 12px 0;
   font-style: italic;
   color: #555;
@@ -258,7 +285,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: var(--magenta);
+  color: var(--forest);
   text-decoration: none;
   font-weight: 600;
   font-size: 15px;

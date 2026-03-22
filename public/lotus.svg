@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" width="120" height="80">
+  <defs>
+    <linearGradient id="petal1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8BBD0"/>
+      <stop offset="100%" style="stop-color:#EC407A"/>
+    </linearGradient>
+    <linearGradient id="petal2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F48FB1"/>
+      <stop offset="100%" style="stop-color:#E91E63"/>
+    </linearGradient>
+    <linearGradient id="petal3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FCE4EC"/>
+      <stop offset="100%" style="stop-color:#F06292"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50"/>
+      <stop offset="100%" style="stop-color:#2E7D32"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Leaves underneath -->
+  <path d="M 20 58 Q 35 40 60 55 Q 35 50 20 58" fill="url(#leafGrad)" opacity="0.7"/>
+  <path d="M 100 58 Q 85 40 60 55 Q 85 50 100 58" fill="url(#leafGrad)" opacity="0.7"/>
+  
+  <!-- Back petals -->
+  <path d="M 60 52 Q 38 25 28 45 Q 22 55 60 52" fill="url(#petal3)" opacity="0.6"/>
+  <path d="M 60 52 Q 82 25 92 45 Q 98 55 60 52" fill="url(#petal3)" opacity="0.6"/>
+  
+  <!-- Side petals -->
+  <path d="M 60 50 Q 42 18 35 38 Q 30 50 60 50" fill="url(#petal1)" opacity="0.8"/>
+  <path d="M 60 50 Q 78 18 85 38 Q 90 50 60 50" fill="url(#petal1)" opacity="0.8"/>
+  
+  <!-- Inner side petals -->
+  <path d="M 60 48 Q 48 20 44 36 Q 40 48 60 48" fill="url(#petal2)" opacity="0.85"/>
+  <path d="M 60 48 Q 72 20 76 36 Q 80 48 60 48" fill="url(#petal2)" opacity="0.85"/>
+  
+  <!-- Center petal -->
+  <path d="M 60 46 Q 54 12 52 30 Q 50 42 60 46 Q 70 42 68 30 Q 66 12 60 46" fill="url(#petal2)"/>
+  
+  <!-- Center dot -->
+  <circle cx="60" cy="44" r="3" fill="#F9A825" opacity="0.8"/>
+  <circle cx="60" cy="44" r="1.5" fill="#FF8F00"/>
+  
+  <!-- Water ripple -->
+  <ellipse cx="60" cy="62" rx="40" ry="4" fill="none" stroke="#2E7D32" stroke-width="0.8" opacity="0.25"/>
+  <ellipse cx="60" cy="65" rx="50" ry="4" fill="none" stroke="#2E7D32" stroke-width="0.5" opacity="0.15"/>
+</svg>
