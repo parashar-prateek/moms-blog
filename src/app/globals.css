@@ -35,62 +35,62 @@ body {
 
 /* ─── Header ─── */
 .site-header {
-  background: linear-gradient(160deg, #1B3A0A 0%, #2D5016 30%, #3D6B1E 60%, #4A7A25 100%);
-  padding: 36px 24px 32px;
-  text-align: center;
+  background: linear-gradient(135deg, #FDFAF5 0%, #F5F0E8 50%, #EDE6D8 100%);
+  padding: 0;
   position: relative;
   overflow: hidden;
-}
-
-.site-header::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: radial-gradient(ellipse at 30% 90%, rgba(232,163,23,0.12) 0%, transparent 50%),
-              radial-gradient(ellipse at 70% 10%, rgba(255,255,255,0.06) 0%, transparent 50%);
+  border-bottom: 1px solid rgba(45, 80, 22, 0.1);
 }
 
 .site-header::after {
   content: '';
   position: absolute;
   bottom: 0; left: 0; right: 0;
-  height: 4px;
+  height: 3px;
   background: linear-gradient(90deg, var(--saffron), var(--marigold), var(--leaf), var(--sage), var(--saffron));
 }
 
 .site-header-inner {
-  position: relative;
-  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 24px 32px;
 }
 
-.site-logo {
-  margin-bottom: 8px;
-}
-
-.site-logo img {
-  height: 64px;
-  width: auto;
-  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.15));
-}
-
-.site-avatar {
-  width: 80px;
-  height: 80px;
+.site-portrait {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  border: 3px solid rgba(255,255,255,0.3);
-  margin: 8px auto 0;
-  display: block;
-  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.2));
+  object-fit: cover;
+  object-position: center 15%;
+  border: 3px solid rgba(45, 80, 22, 0.15);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  flex-shrink: 0;
+}
+
+.site-header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.site-lotus {
+  height: 32px;
+  width: auto;
+  margin-bottom: 4px;
+  opacity: 0.7;
 }
 
 .site-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: clamp(28px, 6vw, 48px);
+  font-size: clamp(24px, 5vw, 36px);
   font-weight: 800;
-  color: #fff;
-  margin: 0 0 6px;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.2);
-  letter-spacing: 1px;
+  color: var(--forest);
+  margin: 0 0 2px;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
 }
 
 .site-title a {
@@ -101,7 +101,7 @@ body {
 .site-tagline {
   font-family: 'Caveat', cursive;
   font-size: clamp(16px, 3vw, 22px);
-  color: rgba(255,255,255,0.85);
+  color: var(--sage);
   margin: 0;
   font-weight: 400;
 }
@@ -361,8 +361,18 @@ body {
 
 /* ─── Responsive ─── */
 @media (max-width: 600px) {
-  .site-header {
-    padding: 28px 16px 24px;
+  .site-header-inner {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 16px;
+    gap: 16px;
+  }
+  .site-header-text {
+    align-items: center;
+  }
+  .site-portrait {
+    width: 100px;
+    height: 100px;
   }
   .main-content {
     padding: 20px 16px 48px;
