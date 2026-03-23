@@ -26,7 +26,7 @@ You all must have seen with your own eyes the role of ARTIFICIAL INTELLIGENCE in
 
 Geoffrey Hinton who is known as God father of AI, left Google so that he can speak freely on dangers of AI like AI creating autonomous weapons, manipulating humanity, causing massive job losses and escaping control. Hinton has expressed regret over his own work stating he now fears that the digital intelligence being created could become uncontrollable!
 
-There is an open war between ANTHROPOMORPHIC and OPEN AI both are fighting for their dominance in the field of AI! OPEN AI focuses on commercialisation whereas ANTHROPOMORPHIC operates as a safety first company!
+There is an open war between ANTHROPIC and OPEN AI both are fighting for their dominance in the field of AI! OPEN AI focuses on commercialisation whereas ANTHROPIC operates as a safety first company!
 
 As artificial intelligence becomes more common in our daily lives, its effect on education calls for both enthusiasm and caution! Some people believe that AI is great for opportunities for personalised learning but there are still worries about privacy, fairness and possibility of replacing traditional jobs!
 
