@@ -4,18 +4,54 @@ import { useEffect, useState } from 'react';
 import { supabase } from '@/lib/supabase';
 
 const BAD_WORDS = [
-  'fuck', 'shit', 'bitch', 'asshole', 'bastard', 'damn', 'crap', 'piss',
-  'dick', 'cock', 'pussy', 'cunt', 'whore', 'slut', 'nigger', 'nigga',
-  'faggot', 'retard', 'chutiya', 'madarchod', 'behenchod', 'bhenchod',
-  'bhosdike', 'gaandu', 'harami', 'randi', 'saala', 'mc', 'bc',
+  // English
+  'fuck', 'fuk', 'fck', 'fuq',
+  'shit', 'sht',
+  'bitch', 'biatch',
+  'asshole', 'arsehole',
+  'bastard', 'piss', 'prick',
+  'dick', 'dik',
+  'cock', 'cok',
+  'pussy', 'cunt',
+  'whore', 'slut',
+  'nigger', 'nigga',
+  'faggot', 'retard',
+  'wanker', 'twat', 'tosser',
+  'bullshit', 'horseshit', 'motherfucker',
+  // Hindi / Hinglish
+  'chutiya', 'chutia', 'choot', 'chut',
+  'madarchod', 'maderchod',
+  'behenchod', 'bhenchod',
+  'bhosdike', 'bhosdiwale',
+  'gaandu', 'gandu', 'gaand', 'gand',
+  'harami', 'haramzada', 'haramzadi',
+  'randi', 'raand',
+  'lauda', 'lavda', 'lund', 'lodu',
+  'bsdk', 'mfkr',
+  'kamina', 'kamine',
 ];
 
+// Normalize text to catch common bypass tricks:
+// - leetspeak: sh1t, fu(k, @ss
+// - repeated chars: fuuuck, shhit
+// - separators: f.u.c.k, f-u-c-k, f u c k
+function normalizeText(text) {
+  let t = text.toLowerCase();
+  // Leetspeak substitutions
+  t = t.replace(/0/g, 'o').replace(/1/g, 'i').replace(/3/g, 'e')
+       .replace(/4/g, 'a').replace(/5/g, 's').replace(/7/g, 't')
+       .replace(/@/g, 'a').replace(/\$/g, 's').replace(/!/g, 'i')
+       .replace(/\(/g, 'c').replace(/\+/g, 't');
+  // Collapse repeated characters (fuuuck → fuk, shhit → shit)
+  t = t.replace(/(.)\1+/g, '$1');
+  return t;
+}
+
 function containsProfanity(text) {
-  const lower = text.toLowerCase().replace(/[^a-z0-9\u0900-\u097f ]/g, ' ');
-  return BAD_WORDS.some((word) => {
-    const regex = new RegExp(`\\b${word}\\b`, 'i');
-    return regex.test(lower);
-  });
+  const normalized = normalizeText(text);
+  // Also strip all non-alphanumeric to catch f.u.c.k and f u c k
+  const stripped = normalized.replace(/[^a-z0-9\u0900-\u097f]/g, '');
+  return BAD_WORDS.some((word) => normalized.includes(word) || stripped.includes(word));
 }
 
 function formatCommentDate(dateStr) {
