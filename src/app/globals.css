@@ -277,6 +277,15 @@ body {
   color: #2D2D2D;
 }
 
+.post-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 24px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
 /* ─── Divider ─── */
 .rangoli-divider {
   text-align: center;
