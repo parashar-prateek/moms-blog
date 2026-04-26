@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getPostBySlug, getAllSlugs } from '@/lib/posts';
+import CommentsSection from '@/components/CommentsSection';
 
 function getTagClass(tag) {
   const t = tag.toLowerCase();
@@ -79,6 +80,8 @@ export default async function PostPage({ params }) {
             💬 Share on WhatsApp
           </a>
         </div>
+
+        <CommentsSection postSlug={slug} />
       </article>
     </div>
   );

@@ -441,3 +441,139 @@ body {
     padding: 24px 20px;
   }
 }
+
+/* ─── Comments ─── */
+.comments-section {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.comments-heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2D2D2D;
+  margin-bottom: 24px;
+}
+
+.comments-empty {
+  color: #888;
+  font-style: italic;
+  margin-bottom: 32px;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.comment-card {
+  background: rgba(255,255,255,0.7);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.comment-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.comment-name {
+  font-weight: 700;
+  color: #2D2D2D;
+  font-size: 15px;
+}
+
+.comment-date {
+  font-size: 13px;
+  color: #999;
+}
+
+.comment-body {
+  color: #444;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: rgba(255,255,255,0.5);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.comment-form-heading {
+  font-size: 17px;
+  font-weight: 700;
+  color: #2D2D2D;
+  margin: 0 0 4px 0;
+}
+
+.comment-input,
+.comment-textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+  background: #fff;
+  color: #2D2D2D;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.comment-input:focus,
+.comment-textarea:focus {
+  border-color: #c084fc;
+}
+
+.comment-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.comment-error {
+  color: #dc2626;
+  font-size: 14px;
+  margin: 0;
+}
+
+.comment-success {
+  color: #16a34a;
+  font-size: 14px;
+  margin: 0;
+}
+
+.comment-submit {
+  align-self: flex-start;
+  background: #c084fc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+.comment-submit:hover {
+  background: #a855f7;
+}
+
+.comment-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
