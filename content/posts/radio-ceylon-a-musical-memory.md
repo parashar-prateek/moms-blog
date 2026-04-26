@@ -30,7 +30,7 @@ After seeing the success of Radio Ceylon, All India Radio was forced to launch i
 
 ---
 
-An interesting anecode that comes to mind is from a little town called Jhumri Talaiya - Radio Ceylon popularized this town among it's listeners! In 1952 Jhumri Telaiya was part of the state of Bihar but in Nov, 2000 when the new state of Jharkhand was carved out of southern Bihar then Jhumri Telaiya became part of Jharkhand! It is famously known for being a major hub for song requests for Radio Ceylon! No song program was completed unless a song was played on the request of Sh. Rameshwar Prasad from Jhumri Telaiya - perhaps the most avid listener of Radio Ceylon. Most of the time he requested to play Sad songs, his choice of songs was heartwarming!
+An interesting anecdote that comes to mind is from a little town called Jhumri Talaiya - Radio Ceylon popularized this town among it's listeners! In 1952 Jhumri Telaiya was part of the state of Bihar but in Nov, 2000 when the new state of Jharkhand was carved out of southern Bihar then Jhumri Telaiya became part of Jharkhand! It is famously known for being a major hub for song requests for Radio Ceylon! No song program was completed unless a song was played on the request of Sh. Rameshwar Prasad from Jhumri Telaiya - perhaps the most avid listener of Radio Ceylon. Most of the time he requested to play Sad songs, his choice of songs was heartwarming!
 
 This is how Radio Ceylon celebrated and saved Indian film music and entertained music lovers.
 
