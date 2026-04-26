@@ -36,7 +36,7 @@ This is how Radio Ceylon celebrated and saved Indian film music and entertained 
 
 ---
 
-You people must be thinking why I chose this topic for my blog. The reason is very simple, please remember one thing that in journey of your life whosoever contributed whether it's Radio Station, a person or a group of people or an organisation who brings a smile to your face and gives internal peace and happiness, then we all should be thankful and grateful to them!
+You may be thinking why I chose this topic for my blog. The reason is very simple, please remember one thing that in journey of your life whosoever contributed whether it's Radio Station, a person or a group of people or an organisation who brings a smile to your face and gives internal peace and happiness, then we all should be thankful and grateful to them!
 
 A VOID which was created by All India Radio in 1952 by banning film music was filled by RADIO CEYLON which gave all music listeners a chance to listen to songs they wanted to listen!
 
