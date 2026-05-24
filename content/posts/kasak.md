@@ -10,7 +10,7 @@ As per the Sanathanis' scriptures, there are around 14~ Lokas: 7 above and 7 bel
 
 Now, you can imagine how difficult it is to get a life as a human being and once we get the human body OUR JOURNEY OF LIFE BEGINS. In this journey of life, some people make it to their destination and some people don't get enough opportunities to make it in life despite their hard work! The people who don't make it most certainly have regrets about their life which is understandable, but there are also people who have achieved maximum success in life but still they are missing something vital in their lives.
 
-This categorizes people into two:
+This broadly puts people into two categories:
 
 1. People those who have desired something in life but couldn't get the same!
 2. People who have achieved maximum success but still not happy, there is some void in their lives and usually, these are the people who are emotionally hurt by their families and friends!
