@@ -1,9 +1,9 @@
 ---
-title: "Kasak — Regret and Unfulfilled Longing"
+title: "Kasak - Regret and Unfulfilled Longing"
 date: "2026-05-23"
 tags: ["Philosophy", "Spirituality", "Life"]
 emoji: "🌑"
-excerpt: "Everyone carries a Kasak — an ache for what could have been. But the day you accept reality, no matter how harsh, your pain shall gradually diminish."
+excerpt: "Everyone carries a Kasak - an ache for what could have been. But the day you accept reality, no matter how harsh, your pain shall gradually diminish."
 ---
 
 As per the Sanathanis' scriptures, there are around 14~ Lokas: 7 above and 7 below (Adhloka), and a soul gets human birth only after wandering in 8,400,000 bodies.
@@ -19,19 +19,19 @@ So both categories are having some kind of KASAK in their lives which reminds th
 
 ---
 
-1. **KASAK of not being born in a wealthy family** — this quite ache gives you the feeling that your potential was restricted by the circumstances of your birth, rather than the strength of your abilities/ambition!
+1. **KASAK of not being born in a wealthy family** - this quite ache gives you the feeling that your potential was restricted by the circumstances of your birth, rather than the strength of your abilities/ambition!
 
-2. **KASAK of not being able to get admission in a prestigious school, college/institution** — a door that seemed to dictate your career path, scholarship opportunities or dreams of studying abroad.
+2. **KASAK of not being able to get admission in a prestigious school, college/institution** - a door that seemed to dictate your career path, scholarship opportunities or dreams of studying abroad.
 
 3. **KASAK of not getting a job of your choice** and frustration of working a job that drains your soul and makes you feel unvalued.
 
-4. **KASAK of not sharing your life with the person who truly understood you** — this internal pain/conflict leads to a life that feels technically comfortable but emotionally hollow.
+4. **KASAK of not sharing your life with the person who truly understood you** - this internal pain/conflict leads to a life that feels technically comfortable but emotionally hollow.
 
 5. **KASAK of abusive, turbulent or failed marriage**, where the promise of companionship turned into a daily battle, ultimately leading to Separation or Divorce.
 
 6. **KASAK of having failed emotional relationships due to Betrayal** causes immense pain, suffering and sorrow and it takes years to heal from this trauma.
 
-7. **KASAK of not being able to express your emotions/feelings openly and honestly when it mattered most** — this silent regret due to lack of communication leads to a decision that costs heavily to you and your partner forever!
+7. **KASAK of not being able to express your emotions/feelings openly and honestly when it mattered most** - this silent regret due to lack of communication leads to a decision that costs heavily to you and your partner forever!
 
 8. **KASAK of not being able to experience the joy of raising a child**, or not having a baby boy or girl!
 
@@ -39,7 +39,7 @@ So both categories are having some kind of KASAK in their lives which reminds th
 
 10. **KASAK of being sexually abused!** Trauma of sexual abuse leaves a permanent stain on your self worth.
 
-11. **KASAK of not being given right treatment by the doctors to your loved ones** — the haunting guilt of watching a loved one suffer because they didn't receive the right treatment inspite of spending lakhs on their treatment, wondering if you could have done more.
+11. **KASAK of not being given right treatment by the doctors to your loved ones** - the haunting guilt of watching a loved one suffer because they didn't receive the right treatment inspite of spending lakhs on their treatment, wondering if you could have done more.
 
 12. **KASAK of losing your loved ones at a young age.** Premature loss of a loved one is a tragedy that leaves an irreplaceable Void and turns the future into an endless cycle of grief and despair.
 
@@ -69,7 +69,7 @@ Everyone knows that it is not possible to regain the opportunities which we miss
 
 9. Accept missed opportunities won't give you any chance of winning the game again, therefore, avoid to repeat or replay the events in your mind over and over again!
 
-10. Life is full of surprises and there are plenty of fresh opportunities right in front of you at all times, what you have to do just show some courage and confidence — "GO AND GRAB THE OPPORTUNITIES" and give one more chance to yourself to win the game which you lost in the past, there is no time limit or age limit for achieving your dreams and goals in life!
+10. Life is full of surprises and there are plenty of fresh opportunities right in front of you at all times, what you have to do just show some courage and confidence - "GO AND GRAB THE OPPORTUNITIES" and give one more chance to yourself to win the game which you lost in the past, there is no time limit or age limit for achieving your dreams and goals in life!
 
 11. I know it's very difficult and hard to overpower KASAK, but somewhere down the line you have to stop the war of 'I COULD HAVE' and 'I WOULD HAVE'. Stop punishing yourself for the choices/decisions you made in the past and step forward into the PRESENT. This exact moment is where your power begins.
 
