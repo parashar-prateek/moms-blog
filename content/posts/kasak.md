@@ -43,6 +43,8 @@ So both categories are having some kind of KASAK in their lives which reminds th
 
 12. **KASAK of losing your loved ones at a young age.** Premature loss of a loved one is a tragedy that leaves an irreplaceable Void and turns the future into an endless cycle of grief and despair.
 
+13. **KASAK of losses in business/property.** Property disputes within family and outside family make life difficult for the people who have been affected by the loss/disputes.
+
 ---
 
 This never ending saga of Kasak makes the present very difficult for the people who are not ready to accept the truth about their past, instead they keep making excuses for their own mistakes, which only makes their present uncomfortable.
