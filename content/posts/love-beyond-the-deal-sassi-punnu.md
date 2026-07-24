@@ -36,7 +36,7 @@ These days, we increasingly witness horrifying incidents where the sacred defini
 
 ---
 
-Above narrated examples reveal the difference between devotional love of Sassi Punnu and the modern days love. The story of Sassi and punnu reminds us of what true love looks like "A BOND WHERE TWO PEOPLE ARE WILLING TO LOOSE EVERYTHING JUST TO BE TOGETHER". The tragic contrast with modern love comes down to one simple shift:
+Such incidents reveal the difference between devotional love of Sassi Punnu and the modern days love. The story of Sassi and punnu reminds us of what true love looks like "A BOND WHERE TWO PEOPLE ARE WILLING TO LOOSE EVERYTHING JUST TO BE TOGETHER". The tragic contrast with modern love comes down to one simple shift:
 
 SASSI PUNNU ASKED "WHAT CAN I GIVE UP FOR YOU" WHEREAS TODAY'S LOVE OFTEN ASKS, "WHAT CAN I GET OUT OF YOU".
 
