@@ -32,7 +32,7 @@ We still sing about them at weddings because Sassi represents incredible female 
 
 Today technology and social media have completely changed how we view love, relationship and marriage. Dating apps make finding a partner very easy. However, when choices seem endless, commitment losses its value, and people often choose to replace their partners rather than work together through difficult times.
 
-These days, we increasingly witness horrifying incidents where the sacred definition of marriage/relationships is reduced to greed, obsession and self-interest. Barely a week passes without a headline of a trusted partner turning into a killer - honeymoons that end in tragedy, live-in relationships that end in unspeakable brutality, a spouse plotting against the very person they had vowed to love. These heartbreaking incidents prove how easily greed can wipe out loyalty and compassion. They show that when selfish interest takes over, the person who promises to love you can become the one who destroys you.
+These days, we increasingly witness horrifying incidents where the sacred definition of marriage/relationships is reduced to greed, obsession and self-interest. In recent times, we have been shaken by headline after headline of a trusted partner turning into a killer - a honeymoon that ends in tragedy, live-in relationships that end in unspeakable brutality, a spouse plotting against the very person they had vowed to love. These heartbreaking incidents prove how easily greed can wipe out loyalty and compassion. They show that when selfish interest takes over, the person who promises to love you can become the one who destroys you.
 
 ---
 
