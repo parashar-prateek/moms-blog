@@ -286,6 +286,37 @@ body {
   box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
 
+/* ─── Treasured note (framed keepsake) ─── */
+.post-content .treasured-note {
+  max-width: 540px;
+  margin: 36px auto;
+  padding: 16px;
+  background: linear-gradient(135deg, #FDFAF5 0%, #F5F0E8 100%);
+  border: 1px solid rgba(45, 80, 22, 0.18);
+  border-radius: 6px;
+  box-shadow: 0 12px 34px rgba(0,0,0,0.16);
+  position: relative;
+}
+
+.post-content .treasured-note::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(232, 163, 23, 0.55);
+  border-radius: 3px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.post-content .treasured-note img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
 /* ─── Divider ─── */
 .rangoli-divider {
   text-align: center;
