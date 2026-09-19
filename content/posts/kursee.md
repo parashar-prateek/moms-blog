@@ -1,26 +1,26 @@
 ---
-title: "Kursee — The Power of the Chair"
+title: "Kursee: The Power of the Chair"
 date: "2024-07-26"
 tags: ["Society", "India"]
 emoji: "💺"
-excerpt: "What an interesting, incredible and inspiring can be a kursee, if utilised in a proper and professional manner then power of kursee can change the whole situation all over the world."
+excerpt: "How interesting, incredible, and inspiring a kursee can be - yet that same intoxicating power of the chair can push societies into chaos when no one is willing to let it go."
 ---
 
-Kursee: — What an interesting, incredible and inspiring can be a kursee, if utilised in a proper and professional manner then power of kursee can change the whole situation all over the world.
+How interesting, incredible, and inspiring a kursee can be. If utilized in a proper and professional manner, its power can transform the entire world. Yet, that same power can be incredibly dangerous - a tool used to push societies into chaos.
 
-The power of kursee can be dangerous sometimes and can also be used as a tool to make the situation worse!
+History shows us that rulers across the globe expanded their kingdoms using the sheer weight of the kursee. However, it is never the individual alone who bargains; it is the intoxicating power of the kursee that enables them to act - either to elevate their people or to betray the collective interest.
 
-If you go by the history you will find that all over the world some Raja Maharaja extended their kingdoms from time to time because of the Power of that kursee generates, some had extended their kingdoms and some had bargained the power of kursee against the national interest.
+---
 
-Please remember one thing that it's not the person who bargains, it's the power of kursee that allows him or her to bargain either in the favour of the respective country OR to bargain against the national interest of the country!
+Today, we see that once a kursee is occupied, leaders refuse to vacate it easily. This is a global phenomenon, seen in nations across every continent. The people authorize them to sit on that chair, yet the power of the seat makes them forget the very citizens they swore to serve.
 
-Now you can see that once kursee is occupied by the politicians they are not going to vacate so easily, it's not only in India but it's happening all over the world be it in Nepal, America, France, Brazil and almost in all African countries. Who authorised them to sit on the kursee, it's the people of every country but due to power of that kursee they forget to serve the citizens of their respective countries.
+I still fail to understand what high-voltage current this kursee generates. Once occupied, no one wants to let go. It creates an illusion of absolute privilege, driving leaders to do everything except serve their people.
 
-Till date at least I am failed to understand what high voltage power that kursee generates that once occupied, no one is interested in vacating the kursee all over the world, the power of kursee makes them feel so much privileged and powerful that they do all the things, except serving the nation.
+---
 
-Here I want to add one thing that all my colleagues/friends were holding good positions at the time of their retirement, few of my friends were on the highest position at the time of retirement. We all were informed prior to retirement that on such and such date he or she will be retiring and with all humanity we all accepted gracefully the date of our retirement, our date of retirement fixed on the day we all joined the organisation as per government guidelines but just see the tyranny of the day the same guidelines does not apply to the people who have made the guidelines, very very tragic?
+When my colleagues and friends reached the top of their fields in government/Semi-government offices, we all knew our retirement dates from the very day we joined. When the time came, everyone stepped down gracefully in accordance with institutional guidelines. The tragic irony is that these rules do not apply to the People who write them.
 
-Hope you understand the power that KURSEE generates, so make sure when people allow someone to sit on a responsible and power packed KURSEE think hundred times whether he or she has the capability or ability to sit on that KURSEE on which the total existence of the NATION is based on!!
+The kursee holds immense power. When people allow someone to sit on a responsible and power-packed kursee, they must think a hundred times. We must ensure the person has the capability and integrity to handle a position upon which every institution, organisation, and the Nation itself relies.
 
 With love,
 Rita 💺
