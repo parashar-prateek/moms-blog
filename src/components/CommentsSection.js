@@ -31,27 +31,47 @@ const BAD_WORDS = [
   'kamina', 'kamine',
 ];
 
-// Normalize text to catch common bypass tricks:
+// Long, unambiguous roots that are blocked even inside other words
+// (fucking, bullshitter). Everything else in BAD_WORDS must match a whole
+// word, so innocent text like "amazing and", "all understand", "Gandhi"
+// or "laudable" is never flagged.
+const BAD_ROOTS = [
+  'fuck', 'shit', 'bitch', 'asshole', 'arsehole', 'motherfucker',
+  'nigger', 'nigga', 'faggot', 'madarchod', 'maderchod',
+  'behenchod', 'bhenchod', 'bhosdi', 'chutiya', 'chutia', 'haramzad',
+];
+const BAD_WORD_SET = new Set(BAD_WORDS);
+
+// Split text into words, normalizing common bypass tricks:
 // - leetspeak: sh1t, fu(k, @ss
-// - repeated chars: fuuuck, shhit
-// - separators: f.u.c.k, f-u-c-k, f u c k
-function normalizeText(text) {
-  let t = text.toLowerCase();
-  // Leetspeak substitutions
-  t = t.replace(/0/g, 'o').replace(/1/g, 'i').replace(/3/g, 'e')
-       .replace(/4/g, 'a').replace(/5/g, 's').replace(/7/g, 't')
-       .replace(/@/g, 'a').replace(/\$/g, 's').replace(/!/g, 'i')
-       .replace(/\(/g, 'c').replace(/\+/g, 't');
-  // Collapse repeated characters (fuuuck → fuk, shhit → shit)
-  t = t.replace(/(.)\1+/g, '$1');
-  return t;
+// - repeated chars: fuuuck, shhit (both raw and collapsed forms are checked)
+// - separators: f.u.c.k, f-u-c-k, f u c k (runs of single letters are rejoined)
+function tokenize(text) {
+  const t = text.toLowerCase()
+    .replace(/0/g, 'o').replace(/1/g, 'i').replace(/3/g, 'e')
+    .replace(/4/g, 'a').replace(/5/g, 's').replace(/7/g, 't')
+    .replace(/@/g, 'a').replace(/\$/g, 's').replace(/!/g, 'i')
+    .replace(/\(/g, 'c').replace(/\+/g, 't');
+  const words = t.split(/[^a-zऀ-ॿ]+/).filter(Boolean);
+
+  const tokens = [];
+  let run = '';
+  for (const w of words) {
+    if (w.length === 1) { run += w; continue; }
+    if (run) { tokens.push(run); run = ''; }
+    tokens.push(w);
+  }
+  if (run) tokens.push(run);
+
+  return tokens.flatMap((w) => [w, w.replace(/(.)\1+/g, '$1')]);
 }
 
 function containsProfanity(text) {
-  const normalized = normalizeText(text);
-  // Also strip all non-alphanumeric to catch f.u.c.k and f u c k
-  const stripped = normalized.replace(/[^a-z0-9\u0900-\u097f]/g, '');
-  return BAD_WORDS.some((word) => normalized.includes(word) || stripped.includes(word));
+  return tokenize(text).some((tok) =>
+    BAD_WORD_SET.has(tok) ||
+    BAD_WORD_SET.has(tok.replace(/e?s$/, '')) ||
+    BAD_ROOTS.some((root) => tok.includes(root))
+  );
 }
 
 function formatCommentDate(dateStr) {
@@ -149,7 +169,7 @@ export default function CommentsSection({ postSlug }) {
           value={body}
           onChange={(e) => setBody(e.target.value)}
           rows={4}
-          maxLength={1000}
+          maxLength={3000}
         />
         {error && <p className="comment-error">{error}</p>}
         {success && <p className="comment-success">Thank you for your comment! 🙏</p>}
